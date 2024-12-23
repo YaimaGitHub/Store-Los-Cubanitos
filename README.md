@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Online Glocery Store
 
-## Getting Started
+<h4>Created a fully-featured Online Grocery Store application utilizing Next.js 14, Strapi, Tailwind CSS, and Shadcn UI. ✨ The visual elements of this project are available for viewing across multiple platforms, as detailed in the project description. ✔️</h4>  
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    <img
+      src="https://s30.picofile.com/file/8473042000/nextjs.png"
+      alt="أNext"
+      width="80"
+      height="27"
+    />
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img
+      src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+      width="40"
+      height="40"
+    />
+  </a>
+  
+ <a href="https://strapi.io/">
+    <img
+      src="https://s30.picofile.com/file/8473142968/strapi.png"
+      width="41"
+      height="41"
+    />
+  </a>
+  <a href="https://ui.shadcn.com/">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvQ8P74Q9qIdvz32mDGS6HbBAffF8QUICbBl-jON5Aq3Fqc3uKS9qYdc8NJmr3kSlCN8&usqp=CAU"
+      width="35"
+      height="37"
+    />
+  </a>
+ <a href="https://axios-http.com/">
+    <img
+      src="https://s31.picofile.com/file/8472349050/axi.png"
+      width="25"
+      height="35"
+    />
+    </a>
+      <a href="https://lucide.dev/guide/packages/lucide-react">
+    <img
+      src="https://s30.picofile.com/file/8473948434/lucid.png"
+      width="40"
+      height="40"
+    />
+  </a>
+</a>
+      <a href="https://www.radix-ui.com/">
+    <img
+      src="https://seeklogo.com/images/R/radix-ui-logo-4DFADC9A23-seeklogo.com.png"
+      width="25"
+      height="35"
+    />
+  </a>
+  
+  \
+  <br />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I endeavored to incorporate cutting-edge technologies into this project, which proved to be a stimulating experience for me. 🏆 \
+The integration of [Next.js](https://nextjs.org/) and [Tailwind Css](https://tailwindcss.com/) was particularly impressive.
+Furthermore, I employed an intriguing tool called [Strapi](https://strapi.io/) and shared my insights on it via my LinkedIn profile. Utilizing Strapi in this context was truly enriching, and I wish them continued success. Additionally, [Shadcn](https://shadcn.com/), [Radix UI](https://www.radix-ui.com/) components and [Lucide icons](https://lucide.dev/)   were utilized in the development of this project.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Now you can see [Demo](https://online-grocery-store-web.vercel.app/)\
+Thank you very much. 🙏
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![](https://s30.picofile.com/file/8473948784/glocery_1_.png)
 
-## Learn More
+![](https://s30.picofile.com/file/8473948792/glocery_1_.jpg)
 
-To learn more about Next.js, take a look at the following resources:
+![](https://s31.picofile.com/file/8473948800/glocery_2_.JPG)
+![](https://s31.picofile.com/file/8473948818/glocery_3_.JPG)
+![](https://s30.picofile.com/file/8473948826/glocery_4_.JPG)
+![](https://s30.picofile.com/file/8473948834/glocery_5_.jpg)
+![](https://s30.picofile.com/file/8473948850/glocery_6_.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
+<h3>Full:</h3>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![](https://s31.picofile.com/file/8473948918/full_glocery.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h3 align="left">Connect with me:</h3>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="left">
+  <a href="mailto:miladjoodi1@gmail.com" target="blank"
+    ><img
+      align="center"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png"
+      alt="miladjoodi"
+      height="27"
+      width="34"
+  /></a>
+  <a href="https://twitter.com/milad_joodi" target="blank"
+    ></a>
+  <a
+    href="https://www.linkedin.com/in/miladjoodi/"
+    target="blank"
+    ><img
+      align="center"
+      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+      alt="https://www.linkedin.com/in/miladjoodi/"
+      height="30"
+      width="40"
+  /></a>    
+  <a
+    href="https://www.facebook.com/miladjood/"
+    target="blank"
+    ><img
+      align="center"
+      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
+      alt="Milad's Linkedin"
+      height="30"
+      width="30"
+  /></a>
+</p>
+
+ 
