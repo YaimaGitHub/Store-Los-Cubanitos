@@ -1,31 +1,64 @@
- # Cardapio Online 📝  
-  A aplicação que desenvolvi ao longo deste chat é um sistema de pedidos de produtos em uma loja virtual. A aplicação é baseada no framework Next.js e utiliza a biblioteca Tailwind CSS para estilização. Aqui estão os principais componentes e funcionalidades:
+# <div id="introduction">Cardápio.Ninja</div>
 
-## Página Inicial 
-- A aplicação possui uma página inicial que exibe uma lista de categorias de produtos. Ao clicar em uma categoria, a lista de produtos correspondente é exibida.
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Componente de Categorias (Categories)
-- Este componente é responsável por exibir a lista de categorias de produtos disponíveis. Ele renderiza os botões correspondentes a cada categoria e, ao clicar em uma categoria específica, exibe os produtos relacionados usando o componente "CategoryItems". Através deste componente, os usuários podem navegar entre diferentes categorias e explorar os produtos oferecidos pela loja.
+Welcome to the Cardápio.Ninja project!<br>
+This project represents the **Frontend portion of the Cardápio.Ninja** platform.<br>
+It was originally built with **Vue 3** and migrated to **Nuxt 3**. Below, you will find a detailed README to help you understand the project and its features.
 
-## Componente de Itens da Categoria (CategoryItems)
-- Este componente renderiza a lista de produtos para a categoria selecionada. Ele exibe informações sobre cada produto, como nome, preço, quantidade disponível e uma imagem. Os usuários podem adicionar produtos ao carrinho ao clicar em um botão "Adicionar ao Carrinho". Também é possível selecionar o número de fatias de produtos que deseja.
+Note that the backend components, including technologies such as ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![AWSS3](https://img.shields.io/badge/AWS%20S3-%23FF9900.svg?style=for-the-badge&logo=amazon-s3&logoColor=white)
+![PAGSEGURO](https://img.shields.io/badge/pagseguro-%73b743.svg?style=for-the-badge&logo=pagseguro&logoColor=white), are not included in this repository.
 
-## Componente de Carrinho (Cart)
-- Quando os produtos são adicionados ao carrinho, o componente de carrinho exibe os itens selecionados. Cada item no carrinho é exibido com detalhes como nome, quantidade e preço total. Os usuários podem remover itens do carrinho. Se o carrinho estiver vazio, é exibida uma imagem indicando que o carrinho está vazio.
+## 📝 Table of Contents
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Technologies Used](#technologies)
+- [How It Works](#howItWorks)
+- [Setup](#Setup)
 
-## Botão para Enviar Pedido via WhatsApp
-- Quando há itens no carrinho, um botão "Enviar Pedido via WhatsApp" é exibido. Ao clicar neste botão, o texto do pedido é gerado com base nos produtos no carrinho e exibido em uma área de texto.
+## <div id="demo">🔥 Demo</div>
 
-## Responsividade
-- Implementei estilos e layout responsivos usando o Tailwind CSS, permitindo que a aplicação seja visualizada em diferentes tamanhos de tela. O componente de carrinho também é responsivo e se adapta a diferentes dispositivos.
+Experience the full functionality of Cardápio.Ninja at <a href="https://cardapio.ninja" target="_blank">cardapio.ninja</a>.
 
-## Comunicação entre Componentes
-- Usamos props para passar dados entre os componentes, permitindo que a informação flua de maneira organizada e precisa.
+<img height="380" src="https://raw.githubusercontent.com/rangel-pci/files/master/Captura%20de%20tela%202023-10-25%20162511.png">
 
-## Funcionalidades de Estado:
-- Utilizei hooks de estado (useState) para gerenciar o estado dos componentes, como produtos selecionados, itens no carrinho e se o carrinho está aberto ou fechado.
+## <div id="technologies">🛠 Technologies Used</div>
+### Frontend
+- **Typescript**
+- **Nuxt.js** (Vue.js Framework)
+- **Pinia** (State Management)
+- **Tailwind CSS**
+- **Naive UI** (UI Components)
+### Backend
+- **PHP/Laravel**
+- **Amazon S3** (Cloud Storage)
+- **PagSeguro** (Recurring payment plans)
 
-## Toast de Notificação:
--  Implementei notificações de sucesso usando a biblioteca react-toastify para fornecer feedback visual ao usuário quando um produto é adicionado ao carrinho
+## <div id="howItWorks">❓ How It Works</div>
+### Registration
+1. Start by creating an account on Cardápio.Ninja.
+2. Provide essential business information such as your business name and industry.
+### Menu Creation
+1. Add your products or services and customize the menu to fit your style.
+2. That's it! Your digital menu is ready to use.
+3. Share and Receive Orders
+4. Share your menu via a unique link or QR code.
+5. Customers can browse your menu, build orders, and send them to you through WhatsApp.
 
-<img src="./banner/CardapioOnline.png">
+## <div id="Setup">👨‍💻 Installation</div>
+To get started with the frontend part of Cardápio.Ninja, follow these steps:
+1. Clone the repository to your local machine.
+2. Install the project dependencies using the following command:
+
+```bash
+npm install
+```
+3. Once you've installed the project, you can run it locally using the development server:
+
+```bash
+# Start the development server on http://localhost:3000
+npm run dev
+```
