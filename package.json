@@ -24,5 +24,8 @@
     "react-responsive": "^8.1.0",
     "recoil": "^0.1.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/YaimaGitHub/Store-Los-Cubanitos.git",
+  "author": "YaimaGitHub <tvalacarta33@gmail.com>"
 }
