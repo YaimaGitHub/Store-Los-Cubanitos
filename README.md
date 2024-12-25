@@ -1,28 +1,8 @@
-# React Nextjs grocery store front
-Next.js - React demo store to receive orders via whatsapp api
+# React + Vite
 
-[Live Demo](https://techgrocery.vercel.app/)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
- ## Technologies Used 💻
+Currently, two official plugins are available:
 
-- Next.js
-- React-query
-- Recoil (State Mgmt)
-- Chakra UI (styling)
-
-
-## Installation
-Clone or download repo and install dependencies
-```bash
-npm install
-npm run dev
-```
-
-## Usage
-
-```bash
-npm run dev
-```
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
