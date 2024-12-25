@@ -1,0 +1,80 @@
+.popinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.close-btn2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.regh {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.regform {
+  display: flex;
+  flex-direction: column;
+}
+
+.reglab {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reginp {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.regbtn {
+  background-color: rgb(37 211 102);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.regbtn:hover {
+  background-color: #0056b3;
+}
+
+.regspan {
+  font-size: 16px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .popinner {
+    z-index: 10;
+    max-width: 100%;
+  }
+
+  .regh {
+    font-size: 20px;
+  }
+
+  .reginp {
+    padding: 8px;
+  }
+
+  .regbtn {
+    padding: 8px;
+  }
+
+  .regspan {
+    font-size: 14px;
+  }
+}
