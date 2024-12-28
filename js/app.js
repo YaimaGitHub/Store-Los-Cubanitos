@@ -397,7 +397,7 @@ cardapio.metodos = {
         } 
         
         if(opcaoEntrega != "retirada" && opcaoEntrega != "entrega") {
-            cardapio.metodos.mensagem('Por favor escoja una forma de entrega')
+            cardapio.metodos.mensagem('Por favor elige un método de entrega')
         }
 
     },
@@ -457,7 +457,7 @@ cardapio.metodos = {
                     });
                 }
             } else{
-                cardapio.metodos.mensagem("Por favor escolha uma forma de pagamento")
+                cardapio.metodos.mensagem("Por favor elige un método de pago")
                 document.getElementsByName("pagamento");
             }
         }
@@ -468,7 +468,7 @@ cardapio.metodos = {
                     texto += `\n*Ordenar artículos:*\n\n\${itens}`;
                     texto += '\n*Dirección de entrega: Recogida en el local*';
                     texto += `\n*Método de pago:* ${pagamento}`; 
-                    texto += `\n\n*Total (con entrega): MN$ ${(VALOR_CARRINHO).toFixed(2).replace('.', ',')}*`;
+                    texto += `\n\n*Total (sin incluir gastos de envío): MN$ ${(VALOR_CARRINHO).toFixed(2).replace('.', ',')}*`;
             
                     var itens = '';
             
