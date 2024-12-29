@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/responsivo.css">
+    <link rel="stylesheet" href="css/menu.css">
     <title>El Mercado | Los Cubanitos</title>
 </head>
 <body>
@@ -49,6 +50,50 @@
             </nav>
         </div>
     </section>
+
+
+
+
+
+ <!-- partial:index.partial.html -->
+ <div class="list-container fixo">
+    <button class="more-button" aria-label="Menu Button">
+      <div class="menu-icon-wrapper">
+        <div class="menu-icon-line half first"></div>
+        <div class="menu-icon-line"></div>
+        <div class="menu-icon-line half last"></div>
+      </div>
+    </button>
+    <ul class="more-button-list">
+      <li class="more-button-list-item">
+        <a href="#cardapio" class="link"> <i class="fas fa-star-half-alt"></i>
+        <span>Productos</span></a>
+      </li>
+      <li class="more-button-list-item">
+        <a href="https://api.whatsapp.com/send?phone=5519995466902&text=Olá%20Gostaria%20de%20fazer%20um%20Pedido" class="link"><i class="fab fa-whatsapp"></i>
+        <span>WhatsApp</span></a>
+      </li>
+      <li class="more-button-list-item">
+        <a href="tel:+5359004678" class="link"><i class="fas fa-phone"></i>
+        <span>Llamar</span></a>
+      </li>
+      <li class="more-button-list-item">
+        <a onclick="cardapio.metodos.abrirCarrinho(true)" class="link">                            <i class="fa fa-shopping-bag"></i>
+
+        <span>Mi carrito</span></a>
+      </li>
+    </d>
+  </div>
+  </div>
+  <!-- partial -->
+  
+
+
+
+
+
+
+
     <section class="banner">
         <div class="container">
             <div class="row">
@@ -109,7 +154,7 @@
                 </div>
                 <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5">
                     <div class="card-icon text-center">
-                        <img src="img/icone-pedido.svg" width="150">
+                        <img src="img/icone-pedido.png" width="150">
                     </div>
                     <div class="card-text text-center mt-3">
                         <p><b>Fácil de pedir</b></p>
@@ -131,7 +176,7 @@
                 </div>
                 <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5">
                     <div class="card-icon text-center">
-                        <img src="img/istockphoto-1347281587-1024x1024.jpg" width="250">
+                        <img src="img/garantía.png" width="250">
                     </div>
                     <div class="card-text text-center mt-3">
                         <p><b>La mejor calidad</b></p>
@@ -181,7 +226,7 @@
                 <div class="col-5 no-mobile text-center">
                     <div class="card-depoimentos"></div>
                     <div class="d-flex img-banner">
-                        <img src="./img/pizzas.png">
+                        <img src="./img/repartidor-entrega-paquete.png">
                     </div>
                 </div>
                 <div class="col-12 col-lg-7 col-md-7 col-sm-12 col-one">
@@ -247,7 +292,7 @@
     <div class="modal-full hiden" id="modalCarrinho">
         <div class="m-header">
             <div class="container">
-                <a class="btn btn-white btn-sm float-right" onclick="cardapio.metodos.abrirCarrinho(false)">Cerrar</a>
+                <a class="btn btn-white btn-sm float-right" onclick="cardapio.metodos.abrirCarrinho(false)">Seguir comprando</a>
                 <div class="etapas">
                     <div class="etapa etapa1 active">1</div>
                     <div class="etapa etapa2">2</div>
@@ -324,7 +369,7 @@
                     <div class="col-12 col-lg-2 col-md-2 col-sm-12">
                         <div class="form-group">
                             <label># del domicilio:</label>
-                            <input id="txtNumero" type="text" class="form-control" placeholder="Número de la vivienda..."/>
+                            <input id="txtNumero" type="number" class="form-control" placeholder="Número de la vivienda..."/>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 col-md-6 col-sm-12">
@@ -457,5 +502,7 @@
     <script type="text/javascript" src="./js/popper.min.js"></script>
     <script type="text/javascript" src="./js/dados.js"></script>
     <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
 </body>
 </html>

@@ -252,6 +252,7 @@ a.navbar-brand {
 
 .card-item{
     height: 360px;
+    z-index: 8887;
 }
 
 .card-item .img-produto img{
@@ -483,19 +484,19 @@ footer{
     justify-content: end;
 }
 
-.modal-full{
+.modal-full {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 50px;
-    background-color: var(--color-white);
+    background: var(--color-white);
+    z-index: 9999;
     overflow-x: hidden;
     overflow-y: auto;
-    flex-direction: column;
     display: flex;
-    z-index: 9990;
+    flex-direction: column;
 }
 
 .m-header{
@@ -735,8 +736,8 @@ select.form-control{
 
 .botao-carrinho{
     position: fixed;
-    right: 30px;
-    bottom: 50px;
+    right: 20px;
+    bottom: 70px;
     height: 50px;
     width: 50px;
     background-color: var(--color-primary);
@@ -748,14 +749,14 @@ select.form-control{
     color: var(--color-black-heavy)!important;
     border-radius: 50px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 9991;
 }
 
 .container-mensagens{
     position: fixed;
     right: 20px;
     top: 20px;
-    z-index: 9999;
+    z-index: 9980;
 }
 
 .toast{
