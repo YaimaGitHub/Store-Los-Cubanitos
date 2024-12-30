@@ -295,6 +295,7 @@ cardapio.metodos = {
                         $("#txtEndereco").val(dados.logradouro)
                         $("#txtBairro").val(dados.bairro)
                         $("#txtCidade").val(dados.localidade)
+                        $("#txtComplemento").val(complemento)                      
                         $("#ddlUF").val(dados.uf)
                         $("#txtNumero").focus()
                     }
@@ -344,6 +345,15 @@ cardapio.metodos = {
         }
 
         if(opcaoEntrega == 'entrega'){
+
+
+            if (fullName.length <= 0) {
+                cardapio.metodos.mensagem("Escriba su Nombre completo, por favor.");
+                $("#txtName").focus();
+                return;
+              }
+
+
             if(cep.length <= 0){
                 cardapio.metodos.mensagem('informe o CEP, por favor');
                 $('#txtCep').focus()
@@ -359,27 +369,27 @@ cardapio.metodos = {
                 $('#txtBairro').focus()
                 return;
             }
-            if(cidade.length <= 0){
-                cardapio.metodos.mensagem('Escriba el nombre de la Provincia donde vive, por favor');
-                $('#txtCidade').focus()
-                return;
-            }
-            if(uf.length == -1){
-                cardapio.metodos.mensagem('informe a UF, por favor');
-                $('#ddlUF').focus()
-                return;
-            }
             if(numero.length <= 0){
                 cardapio.metodos.mensagem('Escriba su Número de el domicilio donde vive, por favor');
                 $('#txtNumero').focus()
                 return;
             }
-
-            if (fullName.length <= 0) {
-              cardapio.metodos.mensagem("Escriba su Nombre completo, por favor.");
-              $("#txtName").focus();
-              return;
+            if(cidade.length <= 0){
+                cardapio.metodos.mensagem('Escriba el nombre de la Provincia donde vive, por favor');
+                $('#txtCidade').focus()
+                return;         
             }
+            if(complemento.length <= 0){
+                cardapio.metodos.mensagem('Referencia del lugar donde vives');
+                $('#txtComplemento').focus()
+                return;
+            }  
+            if(uf.length == -1){
+            cardapio.metodos.mensagem('informe a UF, por favor');
+            $('#ddlUF').focus()
+            return;
+           }       
+
 
             MEU_ENDERECO = {
                 cep: cep,
