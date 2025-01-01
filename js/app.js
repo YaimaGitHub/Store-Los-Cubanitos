@@ -164,7 +164,7 @@ cardapio.metodos = {
         };
 
         if(etapa == 3){
-            $("#lblTituloEtapa").text('Resumo do pedido');
+            $("#lblTituloEtapa").text('Resumen del pedido');
             $("#itensCarrinho").addClass('hiden');
             $("#localEntrega").addClass('hiden');
             $("#resumoCarrinho").removeClass('hiden');
