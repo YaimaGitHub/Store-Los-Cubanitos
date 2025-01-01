@@ -207,7 +207,7 @@ cardapio.metodos = {
             })
         }
         else{
-            $("#itensCarrinho").html('<p class = "carrinho-vazio"><i class = "fa fa-shopping-cart"></i>Tu carrito está vacío.</p>');
+            $("#itensCarrinho").html('<p class = "carrinho-vazio"><i class = "fa fa-shopping-cart"></i>Tu carrito está vacío. &#128532</p>');
             cardapio.metodos.carregarValores()
         }
 
